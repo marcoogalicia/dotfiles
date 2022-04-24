@@ -7,10 +7,10 @@ set.tabstop = 4
 
 set.hlsearch = true
 set.incsearch = true
-set.ignorecase =true
+set.ignorecase = true
 set.smartcase = true
 
-set.splitbelow = true 
+set.splitbelow = true
 set.splitright = true
 set.wrap = false
 set.scrolloff = 5
@@ -21,3 +21,8 @@ set.relativenumber = true
 set.cursorline = true
 
 set.hidden = true
+
+vim.g.mapleader = ","
+vim.cmd [[colorscheme tokyonight]]
+
+

@@ -69,15 +69,65 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["boo-colorscheme-nvim"] = {
+    loaded = true,
+    path = "/Users/marco-development/.local/share/nvim/site/pack/packer/start/boo-colorscheme-nvim",
+    url = "https://github.com/rockerBOO/boo-colorscheme-nvim"
+  },
+  ["coc.nvim"] = {
+    loaded = true,
+    path = "/Users/marco-development/.local/share/nvim/site/pack/packer/start/coc.nvim",
+    url = "https://github.com/neoclide/coc.nvim"
+  },
+  ["mapx.nvim"] = {
+    loaded = true,
+    path = "/Users/marco-development/.local/share/nvim/site/pack/packer/start/mapx.nvim",
+    url = "https://github.com/b0o/mapx.nvim"
+  },
   ["nightfox.nvim"] = {
     loaded = true,
     path = "/Users/marco-development/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
     url = "https://github.com/EdenEast/nightfox.nvim"
   },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/Users/marco-development/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/marco-development/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "/Users/marco-development/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/Users/marco-development/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/Users/marco-development/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
+  },
+  ["vim-go"] = {
+    loaded = true,
+    path = "/Users/marco-development/.local/share/nvim/site/pack/packer/start/vim-go",
+    url = "https://github.com/fatih/vim-go"
+  },
+  ["vim-nightfly-guicolors"] = {
+    loaded = true,
+    path = "/Users/marco-development/.local/share/nvim/site/pack/packer/start/vim-nightfly-guicolors",
+    url = "https://github.com/bluz71/vim-nightfly-guicolors"
+  },
+  vimspector = {
+    loaded = true,
+    path = "/Users/marco-development/.local/share/nvim/site/pack/packer/start/vimspector",
+    url = "https://github.com/puremourning/vimspector"
   }
 }
 
