@@ -22,6 +22,7 @@ set.cursorline = true
 
 set.hidden = true
 
+vim.opt.guifont = {"JetBrainsMono Nerd Font", "h12"}
 vim.g.mapleader = ","
 vim.cmd [[colorscheme tokyonight]]
 

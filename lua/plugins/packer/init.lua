@@ -22,4 +22,8 @@ return require 'packer'.startup(function()
     use 'rockerBOO/boo-colorscheme-nvim'
     use 'bluz71/vim-nightfly-guicolors'
     use 'folke/tokyonight.nvim'
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+    }
 end)
